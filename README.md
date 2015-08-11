@@ -1,42 +1,25 @@
 Bounty-QA-Zomato
-==================
+=================
 
 <blockquote class="twitter-tweet" lang="en"><p lang="nl" dir="ltr">QA Engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.</p>&mdash; Bill Sempf (@sempf) <a href="https://twitter.com/sempf/status/514473420277694465">September 23, 2014</a></blockquote>
 
+At Artoo, we have never had QAs and now in retrospective really appreciate the value and experience of a good QA. We have a jungle and don't know where to start. We are proud devs who want an equally proud QA who can join our band of brothers (and sisters). We want the kind of QA who understands the product, the user and the environment and comes up with a plan that ensures we succeed on every parameter regardless of these three dimensions. We want the QA who puts devs in their place.
 
-* Scenarios
-* UI/UX / User literacy
-* Connectivity
-
-* Mobile
-* Web
-* Zomato API
-
-
-http://www.ministryoftesting.com/2011/11/testing-the-tester/
-
-We are all on a tight budget. We know we need to be saving money but we just don't know where it disappears. It's first of the month, I have received my salary ... It's 5th of the month, and most of it has disappeared!
-
-Doesn't this sound familiar? The first step is to bring in visibility into your income and expenses. Instead of manually inputing this data, we can extract this data from SMS and emails. (Any other sources?!)
-
-Today there are quite a few apps (mobile or web) that allow you to do this, but we want to see your take on this problem.
-
-Your task is to build a simple (yet functional) Personal Finance app using Android. Remember we are going to evaluate you on the following parameters:
+Your task is to write a test plan and implement a few of the test cases that prove you are the above kind of QA. Remember we are going to evaluate you on the following parameters:
  * How you think and how creative you are
  * How you code - structure, comments, and efficiency
  * And how quickly can you learn
 
-Here are a few points to get you started below. Be creative in your approach.
+Since our App is tied to enterprises (and we are partially ashamed of it), we picked out Zomato for you. Here are a few points to get you started below. Be creative in your approach.
 
-* A screen that takes your consent before reading your SMS
-* A screen that allows you to manual add income or expenses
-* A screen that show you report / summary / visualization. Think interaction here.
+* Zomato Mobile App
+* Zomato Web App
+* Zomato API
 
 If you are going for the kill and you really want to wow us:
 
-1. Material Design
-2. Animation 
-3. Server side synchronization. Parse or FireBase could be simple solutions.
+1. Think about a low literate user and make recommendations on how you will improve the UI/UX
+2. Think about low connectivity and show us how will you improve the application
 
 ### Final Words
 When you are done, please just create a pull request on this repo. We would like you to come in and present your code to the whole team. 
