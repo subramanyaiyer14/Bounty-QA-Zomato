@@ -1,0 +1,44 @@
+Functional Requirements 
+1.	Think about a low literate user and make recommendations on how you will improve the UI/UX
+2.	Think about low connectivity and show us how will you improve the application
+Environments
+1.	Zomato Mobile App
+2.	Zomato Web App
+3.	Zomato API
+Functional Requirement Testing
+1.	Think about a low literate user and make recommendations on how you will improve the UI/UX
+Environment – Zomato API
+-	All the Locations are not listed for example if I type Padmanabha nagar or Kathriguppe it goes to All of Bangalore by default
+-	Select a location, Select a type like breakfast, dinner etc… there is a filter column which specifies the same filter i.e. for breakfast it displays breakfast again which is redundant (As the output of the filter results in the same number of restaurants which is displayed even without filter.
+-	Too many filter types and filter levels. Sort by, cuisine, cost for two are straight forward filters whereas Establishment type and more filters will make the user confused over what to select (which can be put under single umbrella)
+Environment – Zomato Mobile App
+-	Can highlight what is available in a specific hotel and the cost as well along with the restaurant area and name. Reason – People observe the highlighted part more and off course the cost matters as a person can choose based on that instead of putting a filter and not compromising on the ratings as well
+-	Can put the word ‘Rating’ along with the actual rating which is displayed which suggests what number it is, which is easily understandable than looking at the number and assuming that it’s the Restaurant rating.
+-	The “Ride there with Uber” can be mentioned with conditions * or can be marked as sponsored as it doesn’t suggest what exactly it says to the user.
+-	The scroll viewer is displayed at the start of the app can be made to go back to the original position i.e. to 1 instead of coming back in the reverse order
+Once logged in it displays Hello ‘user’ and there are 5 recommended restaurants which we can scroll to right once we reach the 6th recommendation we have to come back (6,5,4,3,2,1) but instead it can be made as a circular scroll as it is like a user likes to swipe to 1 side of the phone it will be easier to swipe/scroll to 1 side and get back to where he has started rather than swipe to his left/scroll to come back to home screen.
+-	Too many filter types for a mobile user and the filter menu is not at the appropriate place as the app doesn’t follow uniformity i.e. the menu appears from left (with selections) in a vertical manner the filter can follow the same approach top to bottom listing and can be placed at the left side.
+-	Similarly there are different options which are in vertical like – breakfast, lunch, dinner, cafes etc… and once selected the menu appears in the top of the selection to be scrolled horizontally which looks ambiguous.
+Environment – Zomato Web App
+-	Web App and Web Api are similar except the first page in web app where the users can perform a quick search based on the location selected.
+-	Filter criteria/ search criteria is ambiguous i.e. a menu shows the quick searches filter and the dropdown menu will show the same filter – Any one option can be retained.
+-	The Establishments filter confuses the user as there are search criteria’s and the other filter as well which returns different results for the same area.
+-	All the other observations are similar to the ones mentioned in web api environment
+
+2.	Think about low connectivity and show us how will you improve the application
+Environment – Zomato API
+-	Maps will take time to load, if the connectivity is slow.
+-	Too many images, links and sponsored ads which will take time to load and affect the performance 
+-	Suggestions
+-	Maps can be retained but the search parameters can be minimized so that it can load faster
+-	All images related and sponsored ads can be reduced so that the webpage loads faster and allows user to select what he wishes for.
+Environment – Zomato Mobile App
+-	Search by area is available but when the connectivity is slow it won’t work 
+-	This app is heavy weight as the menus, searches are images based it need a bit higher bandwidth to load, slower connections tend to take more time and the UI view will not load properly
+-	With too many menu’s and as much as filter types, moreover the connection issues will make the app not so user friendly
+-	Unexpected swipe or scroll in the ambiguous menu will result in more bandwidth usage and the search have to be taken from the beginning.
+Environment – Zomato Web App
+-	Web App and Web Api are similar except the first page in web app where the users can perform a quick search based on the location selected.
+-	The city feed in the Web App will take more time to load as it shows lots of images, which takes time when the connectivity is slow
+-	Collections lists are images based which will consume more bandwidth and the website looks skewed when loaded partially.
+-	All the other observations are similar to the ones mentioned in web api environment.
